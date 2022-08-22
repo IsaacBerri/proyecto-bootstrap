@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+} 
+
+.containerBanner {
+  position: relative;
+}
+
+.containerBanner img {
+  height: 400px;
+  width: 90rem;
+  object-fit: cover;
+}
+
+.tituloPrincipal{
+    padding-left: 20px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24,
+    0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+}
+
+.nav ul li a{
+ color: white; 
+}
+
+.navBurger{
+    background-color: #4FCA24;
+    border-radius: 5px;
+}
+
+.active{
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 20px #B900FF,
+    0 0 30px #00FF2A, 0 0 40px #00FF2A, 0 0 55px #00FF2A, 0 0 75px #00FF2A;
+}
+
+.nav-link:hover{
+    color: #00FF2A;
+}
+
+.tamaño{
+    height: 90vh;
+    object-fit: cover;
+}
+
+.hola{
+    background-color: black;
+}
+
+.imgBorder{
+    border-radius: 3px;
+}
+
+.imagenEquipos:hover{
+    transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.colorText{
+    color: #00FF2A;
+}
+.colorText2{
+    color: gray;
+}
+
+.colorBottom{
+    background-color: #00FF2A;
+}
+
+.caja{
+    position: relative;
+}
+
+.caja img{
+    width: 100%;
+    height: 800px;
+    /* object-fit: cover; */
+}
+
+.textoTarjetas h2{
+    position: absolute;
+    bottom: 87%;
+    left: 32%;
+    color: white;
+    font-size: 50px;
+}
+
+.textoTarjetas p{
+    position: absolute;
+    bottom: 75%;
+    left: 28%;
+    color: #4FCA24;
+    font-size: 30px;
+
+}
+
+.textoTarjetas2 h2{
+    position: absolute;
+    bottom: 87%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+}
+
+.textoTarjetas2 p{
+    position: absolute;
+    bottom: 75%;
+    left: 25%;
+    color: #4FCA24;
+    font-size: 30px;
+
+}
+
+.textoTarjetas3 h2{
+    position: absolute;
+    bottom: 87%;
+    left: 32%;
+    color: white;
+    font-size: 50px;
+}
+
+.textoTarjetas3 p{
+    position: absolute;
+    bottom: 75%;
+    left: 35%;
+    color: #4FCA24;
+    font-size: 30px;
+
+}
+
+.textoTarjetas4 h2{
+    position: absolute;
+    bottom: 87%;
+    left: 27%;
+    color: white;
+    font-size: 50px;
+}
+
+.textoTarjetas4 p{
+    position: absolute;
+    bottom: 75%;
+    left: 32%;
+    color: #4FCA24;
+    font-size: 30px;
+
+}
+
+.col-lg-6{
+    padding: 5px;
+
+}
+
+.tituloPrincopalTienda{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: #00FF2A;
+    font-size: 50px;
+}
+
+.tituloPrincopalTienda h2{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: #00FF2A;
+  font-size: 50px;
+}
+
+.tituloPrincopalTienda p{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.imagenDePcs{
+    position: relative;
+}
+
+.imagenDePcs img{
+  height: 350px;
+  margin-top: 10px;
+}
+
+.imagenDePcs h2{
+    position: absolute;
+    bottom: 70%;
+    color: white;
+    padding-left: 20px; 
+}
+
+.imagenDePcs p{
+    position: absolute;
+    top: 40%;
+    color: white;
+    padding-left: 15px;
+}
+
+.textoPcs{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 30%;
+}
+
+.tarjetas{
+    margin-top: 15px;
+}
+
+.imagenDePerifericos{
+    position: relative;
+}
+
+.imagenDePerifericos img{
+    margin-top: 30px;
+    height: 350px;
+}
+
+.imagenDePerifericos h2{
+    position: absolute;
+    bottom: 63%;
+    left: 75%;
+    color: white;
+    padding-left: 20px;
+}
+
+.imagenDePerifericos p{
+    position: absolute;
+    top: 50%;
+    color: white;
+    padding-left: 20px;
+}
+
+.textoPerifericos{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+}
+
+.colorFooter{
+    background-color: black;
+}
+
+.textFooter{
+    font-size: 20px;
+}
+
+.iconosFooter{
+    border: #4FCA24 solid 2px;
+    border-radius: 100px;
+}
+
+@media (min-width: 300px) and (max-width: 699px){
+
+    .tamaño{
+        height: 25vh;
+    }
+
+    .containerBanner img{
+        height: 200px;
+        width: 100%;
+    }
+
+    .caja img{
+        height: 500px;
+    }
+
+    .textoTarjetas h2{
+        left: 32%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas p{
+        left: 25%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas2 h2{
+        left: 20%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas2 p{
+        left: 20%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas3 h2{
+        left: 32%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas3 p{
+        left: 35%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas4 h2{
+        left: 27%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas4 p{
+        left: 30%;
+        font-size: 20px;
+    
+    }
+
+    .imagenDePerifericos{
+        position: relative;
+    }
+
+    .imagenDePerifericos h2{
+        position: absolute;
+    bottom: 70%;
+    color: white;
+    left: 10%;
+    }
+
+    .imagenDePerifericos p{
+        position: absolute;
+    top: 30%;
+    color: white;
+    padding-left: 15px;
+    }
+
+    .textoPerifericos{
+        width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    .tamaño{
+        height: 35vh;
+    }
+
+    .caja img{
+        height: 650px;
+    }
+
+    .textoTarjetas h2{
+        left: 32%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas p{
+        left: 25%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas2 h2{
+        left: 20%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas2 p{
+        left: 20%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas3 h2{
+        left: 32%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas3 p{
+        left: 35%;
+        font-size: 20px;
+    
+    }
+    
+    .textoTarjetas4 h2{
+        left: 27%;
+        font-size: 30px;
+    }
+    
+    .textoTarjetas4 p{
+        left: 30%;
+        font-size: 20px;
+    
+    }
+
+    .imagenDePerifericos{
+        position: relative;
+    }
+
+    .imagenDePerifericos h2{
+        position: absolute;
+    bottom: 70%;
+    color: white;
+    left: 70%;
+    }
+
+    .imagenDePerifericos p{
+        position: absolute;
+    top: 30%;
+    color: white;
+    padding-left: 15px;
+    }
+
+    .textoPerifericos{
+        width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    }
+}
