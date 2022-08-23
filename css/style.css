@@ -356,6 +356,7 @@ body{
    left: 21%;
    letter-spacing: 70px;
 }
+/* *************FIN DEL CSS DE COMUNIDAD.HTML****************** */
 
 
 
@@ -459,6 +460,70 @@ body{
     bottom: 20%;
     left: 10%;
     }
+
+    .cajaComunidad img{
+        height: 250px;
+    }
+    
+    .cajaComunidad h3{
+        top: 20%;
+        left: 24%;
+        font-size: 30px;
+    }
+
+    .cajaComunidad h2{
+        top: 40%;
+        left: 15%;
+        font-size: 40px;
+    }
+
+    .parrafoComunidad{
+        width: 300px;
+        font-size: 16px;
+        top: 5%;
+        left: 13%;
+    }
+    
+    .parrafoComunidad2{
+        width: 300px;
+        font-size: 16px;
+        top: 48%;
+        left: 13%;
+    }
+
+    .imgGamers img{
+        height: 250px;
+    }
+
+    .textoGamer{
+        top: 7%;
+        left: 30%;
+    }
+    
+    .bottomGamer{
+        top: 25%;
+        left: 43%;
+    }
+
+    .bannerRedes img{
+        height: 200px;
+    }
+
+    .bannerRedes h2{
+        font-size: 18px;
+        top: 10%;
+        left: 21%;
+    
+    }
+    
+    .iconosRedes{
+       top: 40%;
+       left: 15%;
+       letter-spacing: 25px;
+    }
+
+
+
 }
 
 @media (min-width: 700px) and (max-width: 900px){
@@ -519,14 +584,12 @@ body{
     }
 
     .imagenDePerifericos h2{
-        position: absolute;
     bottom: 70%;
     color: white;
     left: 70%;
     }
 
     .imagenDePerifericos p{
-        position: absolute;
     top: 30%;
     color: white;
     padding-left: 15px;
@@ -534,9 +597,61 @@ body{
 
     .textoPerifericos{
         width: 300px;
-    height: 200px;
-    position: absolute;
     bottom: 20%;
     left: 60%;
     }
+
+    .cajaComunidad h3{
+        top: 20%;
+        left: 26%;
+    }
+    
+    .cajaComunidad h2{
+        top: 35%;
+        left: 15%;
+    }
+
+    .parrafoComunidad{
+        font-size: 22px;
+        top: 5%;
+        left: 15%;
+    }
+    
+    .parrafoComunidad2{
+        font-size: 22px;
+        top: 50%;
+        left: 15%;
+    }
+
+    .imgGamers img{
+        height: 450px;
+    }
+
+    .textoGamer{
+        top: 7%;
+        left: 39%;
+    }
+    
+    .bottomGamer{
+        top: 20%;
+        left: 47%;
+    }
+
+    .bannerRedes img{
+        height: 250px;
+    }
+
+    .bannerRedes h2{
+        left: 13%;
+        letter-spacing: 1px;
+    
+    }
+    
+    .iconosRedes{
+       top: 50%;
+       left: 15%;
+       letter-spacing: 40px;
+    }
+
+    
 }
