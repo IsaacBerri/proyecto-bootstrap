@@ -391,6 +391,7 @@ body{
 .videoOficina video{
     height: 600px;
     width: 100%;
+    object-fit: cover;
    margin-top: 50px;
    border-top: #00FF2A solid 3px;
    border-bottom: #00FF2A solid 3px;
@@ -420,6 +421,41 @@ body{
     box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24,
     0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
     margin-top: 20px;
+}
+/* **************FIN DEL CSS DE UBICACION.HTML***************** */
+
+/* **************INICIO DEL CSS DE CONTACTO.HTML***************** */
+.colorLabel{
+    color: #00FF2A;
+}
+
+.imgContacto{
+    position: relative;
+    margin-top: 30px;
+    border-top: #00FF2A solid 3px;
+    border-bottom: #00FF2A solid 3px;
+}
+
+.textarea{
+    resize: none;
+}
+
+.titulosContacto h2{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    font-size: 50px;
+
+}
+
+.titulosContacto h3{
+    color: #4FCA24;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 30px;
+
 }
 
 /* *************INICIO DEL CSS DE FOOTER***************** */

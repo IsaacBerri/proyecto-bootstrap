@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Razer</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,91 +15,176 @@
   </head>
   <body>
     <div class="containerBanner">
-        <h1>Gamer_House</h1>
-        <img src="../img/banner.jpg" class="img-fluid" alt="...">
+      <img src="../img/banner (2).jpg" class="img-fluid" alt="..." />
     </div>
-    <nav class="navbar navbar-expand-sm" style="background-color: #000;">
-        <div class="container-fluid">
-            <img src="../img/razer4.png" alt="" width="30" height="24">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <h1 class="tituloPrincipal">Gamer_House</h1>
-          <div class="collapse navbar-collapse nav" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inico</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="conocenos.html">Conocenos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ubicacion.html">Ubicanos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contacto.html">Contactanos</a>
-              </li>
-              
-              
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-
-
-
-      <div class="container">
-        <footer
-          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    <nav
+      class="navbar navbar-expand-sm sticky-top"
+      style="background-color: #000"
+    >
+      <div class="container-fluid">
+        <img src="../img/razer4.png" alt="" width="30" height="24" />
+        <h1 class="tituloPrincipal me-auto">Razer</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <div class="col-md-4 d-flex align-items-center">
-            <a
-              href="/"
-              class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-            >
-              <img src="img/razer4.png" alt="" width="30" height="24" />
-            </a>
-            <span class="mb-3 mb-md-0 text-muted"
-              >&copy; 2022 Gamer_House, Inc</span
-            >
-          </div>
-  
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-              <a class="text-muted" href="#"
-                ><iconify-icon
-                  icon="akar-icons:facebook-fill"
-                  width="30"
-                  height="30"
-                ></iconify-icon
-              ></a>
+          <span class="navbar-toggler-icon navBurger"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Inico</a
+              >
             </li>
-            <li class="ms-3">
-              <a class="text-muted" href="#"
-                ><iconify-icon
-                  icon="akar-icons:instagram-fill"
-                  width="30"
-                  height="30"
-                ></iconify-icon
-              ></a>
+            <li class="nav-item">
+              <a class="nav-link" href="Productos.html">Productos</a>
             </li>
-            <li class="ms-3">
-              <a class="text-muted" href="#"
-                ><iconify-icon
-                  icon="akar-icons:twitter-fill"
-                  width="30"
-                  height="30"
-                ></iconify-icon
-              ></a>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="comunidad.html"
+                >Comunidad</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ubicacion.html">Ubicanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contactanos</a>
             </li>
           </ul>
-        </footer>
+        </div>
       </div>
+    </nav>
+
+    <div class="imgContacto">
+      <img class="img-fluid" src="../img/imgContacto.jpg" alt="">
+      <div class="titulosContacto">
+        <h2>Bienvenido al Soporte de Razer</h2>
+        <h3>Estamos aquí para ayudar</h3>
+      </div>
+    </div>
+
+    <div class="col-xxl-8 px-4 py-5 hola mt-4">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <form>
+            <div class="mb-3">
+              <label for="Nombre" class="form-label colorLabel">Nombre</label>
+              <input type="text" class="form-control" id="Nombre" placeholder="EJ: Alex">
+              <label for="Apellido" class="form-label colorLabel">apellido</label>
+              <input type="text" class="form-control" id="Apellido" placeholder="Smith">
+              <label for="Email" class="form-label colorLabel">Email</label>
+              <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+            </div>
+            <label for="Producto" class="form-label colorLabel">Producto</label>
+            <select class="form-select pt-1" id="Producto" aria-label="Default select example">
+              
+              <option selected>Seleccione el producto que compro</option>
+              <option value="1">Razer Blade 17 - 4K 144Hz - GeForce RTX 3080 Ti - Black</option>
+              <option value="2">Razer Basilisk V3</option>
+              <option value="3">Razer Viper V2 Pro</option>
+              <option value="4">Razer Naga X</option>
+              <option value="5">Razer Viper Ultimate</option>
+              <option value="6">Razer x *A Bathing Ape® BlackWidow V3 - Green Switch - US</option>
+              <option value="7">Razer Huntsman Mini Analog - USMini Analog - US</option>
+              <option value="8"> Razer Huntsman V2 Tenkeyless - Linear Optical Switch - US - ESL
+                Edition</option>
+              <option value="9">Razer DeathStalker V2 Pro - Linear Optical Switch - US</option>
+              <option value="10">Razer BlackShark V2 - ESL Edition</option>
+              <option value="11">Razer BlackShark V2 Special Edition<</option>
+              <option value="12">Razer BlackShark V2 Pro - Six Siege Special Edition</option>
+
+            </select>
+            <div class="mb-3">
+              <label for="Problema" class="form-label colorLabel">Problema</label>
+              <textarea class="form-control textarea" id="Problema" rows="3" placeholder="Cuentanos un problema"></textarea>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn colorBottom" type="submit">Enviar</button>
+              <button class="btn colorBottom" type="reset">Borrar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-5 colorText">Comentanos que problema tienes</h1>
+          <p class="lead colorText2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet libero earum dicta labore, similique voluptatum nobis possimus quas voluptate eius harum recusandae repudiandae asperiores, fugit architecto error quaerat laborum omnis.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="colorFooter mt-4">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top colorFooter"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <img src="../img/razer4.png" alt="" width="30" height="30" />
+          </a>
+          <span class="mb-3 mb-md-0 text-muted textFooter"
+            >&copy; 2022 Razer, Inc</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.facebook.com/razerlatam/?brand_redir=13848807575"
+              target="_blank"
+              ><iconify-icon
+                class="iconosFooter"
+                icon="akar-icons:facebook-fill"
+                width="30"
+                height="30"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://www.instagram.com/razer/"
+              target="_blank"
+              ><iconify-icon
+                class="iconosFooter"
+                icon="akar-icons:instagram-fill"
+                width="30"
+                height="30"
+              ></iconify-icon
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-muted"
+              href="https://twitter.com/Razer"
+              target="_blank"
+              ><iconify-icon
+                class="iconosFooter"
+                icon="akar-icons:twitter-fill"
+                width="30"
+                height="30"
+              ></iconify-icon
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
 
 
       
