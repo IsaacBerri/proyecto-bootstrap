@@ -356,10 +356,71 @@ body{
    left: 21%;
    letter-spacing: 70px;
 }
+
+#facebook:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#instagram:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#twitter:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#youtube:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#tiktok:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#discord:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+#twitch:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
 /* *************FIN DEL CSS DE COMUNIDAD.HTML****************** */
 
+/* **************INICIO DEL CSS DE UBICANION.HTML*************** */
+.videoOficina video{
+    height: 600px;
+    width: 100%;
+   margin-top: 50px;
+   border-top: #00FF2A solid 3px;
+   border-bottom: #00FF2A solid 3px;
+}
 
+.tituloUbicacion h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #00FF2A;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
 
+.tituloUbicacion h3{
+    margin-left: 30px;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+
+}
+
+.mapa{
+    height: 400px;
+    width: 100%;
+    border: black solid 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24,
+    0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
+    margin-top: 20px;
+}
 
 /* *************INICIO DEL CSS DE FOOTER***************** */
 .colorFooter{
@@ -522,8 +583,9 @@ body{
        letter-spacing: 25px;
     }
 
-
-
+    .videoOficina video{
+        height: 250px;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 900px){
@@ -651,6 +713,10 @@ body{
        top: 50%;
        left: 15%;
        letter-spacing: 40px;
+    }
+
+    .videoOficina video{
+        height: 500px;
     }
 
     
