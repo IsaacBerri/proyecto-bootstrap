@@ -54,7 +54,7 @@ body{
 /* *************FIN DEL CSS GENERAL***************** */
 
 /* *************INICIO DEL CSS DE INDEX.HTML***************** */
-.tamañoCarrucel{
+.tamaño{
     height: 90vh;
     object-fit: cover;
 }
