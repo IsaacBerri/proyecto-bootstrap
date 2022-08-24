@@ -457,6 +457,8 @@ body{
     font-size: 30px;
 
 }
+/* *************FIN DEL CSS DE CONTACTO.HTML***************** */
+
 
 /* *************INICIO DEL CSS DE FOOTER***************** */
 .colorFooter{
@@ -622,6 +624,22 @@ body{
     .videoOficina video{
         height: 250px;
     }
+
+    .imgContacto img{
+        height: 200px;
+    }
+
+    .titulosContacto h2{
+        left: 20%;
+        font-size: 25px;
+    
+    }
+    
+    .titulosContacto h3{
+        left: 29%;
+        font-size: 20px;
+    
+    }
 }
 
 @media (min-width: 700px) and (max-width: 900px){
@@ -753,6 +771,22 @@ body{
 
     .videoOficina video{
         height: 500px;
+    }
+
+    .imgContacto img{
+        height: 300px;
+    }
+
+    .titulosContacto h2{
+        left: 20%;
+        font-size: 50px;
+    
+    }
+    
+    .titulosContacto h3{
+        left: 33%;
+        font-size: 30px;
+    
     }
 
     
