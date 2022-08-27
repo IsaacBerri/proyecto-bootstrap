@@ -43,7 +43,7 @@ body{
     border-radius: 5px;
 }
 
-.active{
+.active1{
     text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 20px #B900FF,
     0 0 30px #00FF2A, 0 0 40px #00FF2A, 0 0 55px #00FF2A, 0 0 75px #00FF2A;
 }
@@ -249,7 +249,7 @@ body{
 }
 
 .textoPerifericos{
-    width: 400px;
+    width: 350px;
     height: 200px;
     position: absolute;
     bottom: 30%;
@@ -457,6 +457,42 @@ body{
     font-size: 30px;
 
 }
+
+.reseñas{
+    color: white;
+    width: 100%;
+    height: 80px;
+    border-top: #00FF2A 3px solid;
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+.reseñas h2{
+    margin-top: 20px;
+}
+
+.borderBottom{
+    border-bottom: 2px white solid;
+    width: 10%;
+    position: absolute;
+    left: 45%;
+}
+
+.caruselTexto{
+    background-color: black;
+    border-bottom: #00FF2A 3px solid;
+}
+
+.caruselTexto div{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.caruselTexto div p{
+    padding: 20px;
+}
 /* *************FIN DEL CSS DE CONTACTO.HTML***************** */
 
 
@@ -534,30 +570,43 @@ body{
     
     }
 
-    .imagenDePerifericos{
-        position: relative;
+    .imagenDePcs img{
+        height: 200px;
+    }
+
+    .imagenDePcs h2{
+        font-size: 13px;
+    }
+
+    .imagenDePcs p{
+        font-size: 13px;
+        top: 65%;
+    }
+
+    .textoPcs{
+        width: 200px;
+    }
+
+    .imagenDePerifericos img{
+        height: 200px;
     }
 
     .imagenDePerifericos h2{
-        position: absolute;
     bottom: 70%;
-    color: white;
-    left: 10%;
+    left: 70%;
+    font-size: 12px;
     }
 
     .imagenDePerifericos p{
-        position: absolute;
     top: 30%;
-    color: white;
-    padding-left: 15px;
+    padding-left: 1px;
+    font-size: 11px;
     }
 
     .textoPerifericos{
-        width: 300px;
-    height: 200px;
-    position: absolute;
-    bottom: 20%;
-    left: 10%;
+        width: 150px;
+    top: 18%;
+    left: 45%;
     }
 
     .cajaComunidad img{
@@ -642,7 +691,7 @@ body{
     }
 }
 
-@media (min-width: 700px) and (max-width: 900px){
+@media (min-width: 700px) and (max-width: 1000px){
     .tamaño{
         height: 35vh;
     }

@@ -40,7 +40,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="../index.html"
-                >Inico</a
+                >Inicio</a
               >
             </li>
             <li class="nav-item">
@@ -58,7 +58,7 @@
               <a class="nav-link" href="ubicacion.html">Ubicanos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contacto.html">Contactanos</a>
+              <a class="nav-link active1" href="contacto.html">Contactanos</a>
             </li>
           </ul>
         </div>
@@ -75,16 +75,16 @@
 
     <div class="col-xxl-8 px-4 py-5 hola mt-4">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+        <div class="col-sm-12 col-md-8 col-lg-6">
           <form>
             <div class="mb-3">
               <label for="Nombre" class="form-label colorLabel">Nombre</label>
               <input type="text" class="form-control" id="Nombre" placeholder="EJ: Alex">
               <label for="Apellido" class="form-label colorLabel">apellido</label>
-              <input type="text" class="form-control" id="Apellido" placeholder="Smith">
+              <input type="text" class="form-control" id="Apellido" placeholder="EJ: Smith">
               <label for="Email" class="form-label colorLabel">Email</label>
-              <input type="email" class="form-control" id="Email" placeholder="name@example.com">
-            </div>
+              <input type="email" class="form-control" id="Email" placeholder="EJ: name@example.com">
+            
             <label for="Producto" class="form-label colorLabel">Producto</label>
             <select class="form-select pt-1" id="Producto" aria-label="Default select example">
               
@@ -104,13 +104,14 @@
               <option value="12">Razer BlackShark V2 Pro - Six Siege Special Edition</option>
 
             </select>
+          </div>
             <div class="mb-3">
               <label for="Problema" class="form-label colorLabel">Problema</label>
-              <textarea class="form-control textarea" id="Problema" rows="3" placeholder="Cuentanos un problema"></textarea>
+              <textarea class="form-control textarea" id="Problema" rows="3" placeholder="Cuentanos tu problema"></textarea>
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
               <button class="btn colorBottom" type="submit">Enviar</button>
-              <button class="btn colorBottom" type="reset">Borrar</button>
+              <button class="btn btn-outline-secondary" type="reset">Borrar</button>
             </div>
           </form>
         </div>
@@ -122,6 +123,43 @@
         </div>
       </div>
     </div>
+
+    <div class="reseñas">
+      <h2>Lo que nuestros clientes estan diciendo</h2>
+      <div class="borderBottom"></div>
+    </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner caruselTexto">
+            <div class="carousel-item active">
+              <iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor eveniet recusandae eos magnam totam laborum asperiores, ullam id nihil possimus, dolores voluptates enim mollitia sapiente vitae eaque. Rem, at obcaecati.</p>
+              <h2>Gabriel</h2>
+            </div>
+            <div class="carousel-item">
+              <iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor eveniet recusandae eos magnam totam laborum asperiores, ullam id nihil possimus, dolores voluptates enim mollitia sapiente vitae eaque. Rem, at obcaecati.</p>
+              <h2>Alex</h2>
+            </div>
+            <div class="carousel-item">
+              <iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon><iconify-icon icon="ant-design:star-filled" style="color: lime;" width="45" height="45"></iconify-icon>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor eveniet recusandae eos magnam totam laborum asperiores, ullam id nihil possimus, dolores voluptates enim mollitia sapiente vitae eaque. Rem, at obcaecati.</p>
+              <h2>Antonio</h2>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
 
 
