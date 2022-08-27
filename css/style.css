@@ -1,842 +1,574 @@
-/*******************INICIO DE CSS GENERAL **********************/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background-color: #000000;
-    font-family: 'Bebas Neue', cursive;
-} 
-
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
 .containerBanner {
-  position: relative;
-}
+  position: relative; }
+  .containerBanner img {
+    height: 400px;
+    width: 90rem;
+    object-fit: cover; }
 
-.containerBanner img {
-  height: 400px;
-  width: 90rem;
-  object-fit: cover;
-}
+.tituloPrincipal {
+  padding-left: 20px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24, 0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24; }
 
-.tituloPrincipal{
-    padding-left: 20px;
-    font-size: 2rem;
-    color: white;
-    text-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24,
-    0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
-}
+.nav {
+  display: flex;
+  justify-content: end; }
+  .nav ul li a {
+    color: white; }
 
-.nav{
-    display: flex;
-    justify-content: end;
-}
+.navBurger {
+  background-color: #4FCA24;
+  border-radius: 5px; }
 
-.nav ul li a{
- color: white; 
-}
+.active1 {
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #B900FF, 0 0 30px #00FF2A, 0 0 40px #00FF2A, 0 0 55px #00FF2A, 0 0 75px #00FF2A; }
 
-.navBurger{
-    background-color: #4FCA24;
-    border-radius: 5px;
-}
+.nav-link:hover {
+  color: #00FF2A; }
 
-.active1{
-    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 20px #B900FF,
-    0 0 30px #00FF2A, 0 0 40px #00FF2A, 0 0 55px #00FF2A, 0 0 75px #00FF2A;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-.nav-link:hover{
-    color: #00FF2A;
-}
-/* *************FIN DEL CSS GENERAL***************** */
+body {
+  background-color: #000000;
+  font-family: 'Bebas Neue', cursive; }
 
-/* *************INICIO DEL CSS DE INDEX.HTML***************** */
-.tamaño{
-    height: 90vh;
-    object-fit: cover;
-}
+.tamaño {
+  height: 90vh;
+  object-fit: cover; }
 
-.hola{
-    background-color: black;
-}
+.hola {
+  background-color: black; }
 
-.imgBorder{
-    border-radius: 3px;
-}
+.imgBorder {
+  border-radius: 3px; }
 
-.imagenEquipos:hover{
-    transform: scale(0.9);
-  transition: 0.5s;
-}
+.imagenEquipos:hover {
+  transform: scale(0.9);
+  transition: 0.5s; }
 
-.colorText{
-    color: #00FF2A;
-}
-.colorText2{
-    color: gray;
-}
+.colorText {
+  color: #00FF2A; }
 
-.colorBottom{
-    background-color: #00FF2A;
-}
+.colorText2 {
+  color: gray; }
 
-.caja{
-    position: relative;
-}
+.colorBottom {
+  background-color: #00FF2A; }
 
-.caja img{
+.caja {
+  position: relative; }
+  .caja img {
     width: 100%;
-    height: 800px;
-    /* object-fit: cover; */
-}
+    height: 800px; }
 
-.textoTarjetas h2{
-    position: absolute;
-    bottom: 87%;
-    left: 32%;
-    color: white;
-    font-size: 50px;
-}
+.textoTarjetas h2 {
+  position: absolute;
+  bottom: 87%;
+  left: 32%;
+  color: white;
+  font-size: 50px; }
 
-.textoTarjetas p{
-    position: absolute;
-    bottom: 75%;
-    left: 28%;
-    color: #4FCA24;
-    font-size: 30px;
+.textoTarjetas p {
+  position: absolute;
+  bottom: 75%;
+  left: 28%;
+  color: #4FCA24;
+  font-size: 30px; }
 
-}
+.textoTarjetas2 h2 {
+  position: absolute;
+  bottom: 87%;
+  left: 20%;
+  color: white;
+  font-size: 50px; }
 
-.textoTarjetas2 h2{
-    position: absolute;
-    bottom: 87%;
-    left: 20%;
-    color: white;
-    font-size: 50px;
-}
+.textoTarjetas2 p {
+  position: absolute;
+  bottom: 75%;
+  left: 25%;
+  color: #4FCA24;
+  font-size: 30px; }
 
-.textoTarjetas2 p{
-    position: absolute;
-    bottom: 75%;
-    left: 25%;
-    color: #4FCA24;
-    font-size: 30px;
+.textoTarjetas3 h2 {
+  position: absolute;
+  bottom: 87%;
+  left: 32%;
+  color: white;
+  font-size: 50px; }
 
-}
+.textoTarjetas3 p {
+  position: absolute;
+  bottom: 75%;
+  left: 35%;
+  color: #4FCA24;
+  font-size: 30px; }
 
-.textoTarjetas3 h2{
-    position: absolute;
-    bottom: 87%;
-    left: 32%;
-    color: white;
-    font-size: 50px;
-}
+.textoTarjetas4 h2 {
+  position: absolute;
+  bottom: 87%;
+  left: 27%;
+  color: white;
+  font-size: 50px; }
 
-.textoTarjetas3 p{
-    position: absolute;
-    bottom: 75%;
-    left: 35%;
-    color: #4FCA24;
-    font-size: 30px;
+.textoTarjetas4 p {
+  position: absolute;
+  bottom: 75%;
+  left: 32%;
+  color: #4FCA24;
+  font-size: 30px; }
 
-}
+.col-lg-6 {
+  padding: 5px; }
 
-.textoTarjetas4 h2{
-    position: absolute;
-    bottom: 87%;
-    left: 27%;
-    color: white;
-    font-size: 50px;
-}
-
-.textoTarjetas4 p{
-    position: absolute;
-    bottom: 75%;
-    left: 32%;
-    color: #4FCA24;
-    font-size: 30px;
-
-}
-
-.col-lg-6{
-    padding: 5px;
-
-}
-
-/* *************FIN DEL CSS DE INDEX.HTML***************** */
-
-/* *************INICIO DEL CSS DE PRODUCTOS.HTML***************** */
-.tituloPrincopalTienda{
-    margin-top: 40px;
-    margin-left: 30px;
-    color: #00FF2A;
-    font-size: 50px;
-}
-
-.tituloPrincopalTienda h2{
+.tituloPrincopalTienda {
   margin-top: 40px;
   margin-left: 30px;
   color: #00FF2A;
-  font-size: 50px;
-}
-
-.tituloPrincopalTienda p{
+  font-size: 50px; }
+  .tituloPrincopalTienda h2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    color: #00FF2A;
+    font-size: 50px; }
+  .tituloPrincopalTienda p {
     color: white;
     margin-left: 30px;
     margin-bottom: 20px;
-    font-size: 20px;
-}
+    font-size: 20px; }
 
-.imagenDePcs{
-    position: relative;
-}
-
-.imagenDePcs img{
-  height: 350px;
-  margin-top: 10px;
-}
-
-.imagenDePcs h2{
+.imagenDePcs {
+  position: relative; }
+  .imagenDePcs img {
+    height: 350px;
+    margin-top: 10px; }
+  .imagenDePcs h2 {
     position: absolute;
     bottom: 70%;
     color: white;
-    padding-left: 20px; 
-}
-
-.imagenDePcs p{
+    padding-left: 20px; }
+  .imagenDePcs p {
     position: absolute;
     top: 40%;
     color: white;
-    padding-left: 15px;
-}
+    padding-left: 15px; }
 
-.textoPcs{
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    bottom: 30%;
-}
+.textoPcs {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  bottom: 30%; }
 
-.tarjetas{
-    margin-top: 15px;
-}
+.tarjetas {
+  margin-top: 15px; }
 
-.imagenDePerifericos{
-    position: relative;
-}
-
-.imagenDePerifericos img{
+.imagenDePerifericos {
+  position: relative; }
+  .imagenDePerifericos img {
     margin-top: 30px;
-    height: 350px;
-}
-
-.imagenDePerifericos h2{
+    height: 350px; }
+  .imagenDePerifericos h2 {
     position: absolute;
     bottom: 63%;
     left: 75%;
     color: white;
-    padding-left: 20px;
-}
-
-.imagenDePerifericos p{
+    padding-left: 20px; }
+  .imagenDePerifericos p {
     position: absolute;
     top: 50%;
     color: white;
-    padding-left: 20px;
-}
+    padding-left: 20px; }
 
-.textoPerifericos{
-    width: 350px;
-    height: 200px;
-    position: absolute;
-    bottom: 30%;
-    left: 70%;
-}
-/* *************FIN DEL CSS DE PRODUCTOS.HTML***************** */
+.textoPerifericos {
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  bottom: 30%;
+  left: 70%; }
 
-/* *************INICIO DEL CSS DE COMUNIDAD.HTML***************** */
-.cajaComunidad{
-    margin-top: 20px;
-    position: relative;
-}
-
-.cajaComunidad img{
-    height: 550px;
-}
-
-.cajaComunidad h3{
+.cajaComunidad {
+  margin-top: 20px;
+  position: relative; }
+  .cajaComunidad img {
+    height: 550px; }
+  .cajaComunidad h3 {
     position: absolute;
     top: 30%;
     left: 37%;
     color: white;
     font-size: 70px;
-    letter-spacing: 3px;
-}
-
-.cajaComunidad h2{
+    letter-spacing: 3px; }
+  .cajaComunidad h2 {
     position: absolute;
     top: 40%;
     left: 30%;
     color: #00FF2A;
     font-size: 100px;
-    letter-spacing: 3px;
-}
+    letter-spacing: 3px; }
 
-.cajaTextoComunidad{
-    background-color: #4FCA24;
-    height: 300px;
-    position: relative;
-    border-top: #000000 solid 3px;
-    border-bottom: #000000 solid 3px;
-}
+.cajaTextoComunidad {
+  background-color: #4FCA24;
+  height: 300px;
+  position: relative;
+  border-top: #000000 solid 3px;
+  border-bottom: #000000 solid 3px; }
 
-.parrafoComunidad{
-    color: #000000;
-    width: 600px;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    top: 7%;
-    left: 27%;
-}
+.parrafoComunidad {
+  color: #000000;
+  width: 600px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 7%;
+  left: 27%; }
 
-.parrafoComunidad2{
-    color: #000000;
-    width: 600px;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    top: 47%;
-    left: 27%;
-}
+.parrafoComunidad2 {
+  color: #000000;
+  width: 600px;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 47%;
+  left: 27%; }
 
-.imgGamers{
-    position: relative;
-    border-bottom: #00FF2A solid 3px;
-}
+.imgGamers {
+  position: relative;
+  border-bottom: #00FF2A solid 3px; }
+  .imgGamers img {
+    height: 550px; }
 
-.imgGamers img{
-    height: 550px;
-}
+.textoGamer {
+  position: absolute;
+  top: 7%;
+  left: 41%;
+  color: white; }
 
-.textoGamer{
-    position: absolute;
-    top: 7%;
-    left: 41%;
-    color: white;
+.bottomGamer {
+  position: absolute;
+  top: 18%;
+  left: 46%; }
 
-}
-
-.bottomGamer{
-    position: absolute;
-    top: 18%;
-    left: 46%;
-}
-
-.bannerRedes{
-    position: relative;
-    border-bottom: #00FF2A solid 3px;
-}
-
-.bannerRedes h2{
+.bannerRedes {
+  position: relative;
+  border-bottom: #00FF2A solid 3px; }
+  .bannerRedes h2 {
     position: absolute;
     top: 10%;
     left: 21%;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 2px; }
 
-}
+.iconosRedes {
+  position: absolute;
+  top: 40%;
+  left: 21%;
+  letter-spacing: 70px; }
 
-.iconosRedes{
-   position: absolute;
-   top: 40%;
-   left: 21%;
-   letter-spacing: 70px;
-}
+#facebook:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
 
-#facebook:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#instagram:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#twitter:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#youtube:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#tiktok:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#discord:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-#twitch:hover{
-    transform: scale(0.8);
-    transition: 0.5s;
-}
-/* *************FIN DEL CSS DE COMUNIDAD.HTML****************** */
+#instagram:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
 
-/* **************INICIO DEL CSS DE UBICANION.HTML*************** */
-.videoOficina video{
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
-   margin-top: 50px;
-   border-top: #00FF2A solid 3px;
-   border-bottom: #00FF2A solid 3px;
-}
+#twitter:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
 
-.tituloUbicacion h2{
-    margin-top: 20px;
-    margin-left: 30px;
-    color: #00FF2A;
-    letter-spacing: 2px;
-    font-size: 50px;
-}
+#youtube:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
 
-.tituloUbicacion h3{
-    margin-left: 30px;
+#tiktok:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
+
+#discord:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
+
+#twitch:hover {
+  transform: scale(0.8);
+  transition: 0.5s; }
+
+.videoOficina video {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 50px;
+  border-top: #00FF2A solid 3px;
+  border-bottom: #00FF2A solid 3px; }
+
+.tituloUbicacion h2 {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #00FF2A;
+  letter-spacing: 2px;
+  font-size: 50px; }
+
+.tituloUbicacion h3 {
+  margin-left: 30px;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 2px; }
+
+.mapa {
+  height: 400px;
+  width: 100%;
+  border: black solid 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24, 0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
+  margin-top: 20px; }
+
+.colorLabel {
+  color: #00FF2A; }
+
+.imgContacto {
+  position: relative;
+  margin-top: 30px;
+  border-top: #00FF2A solid 3px;
+  border-bottom: #00FF2A solid 3px; }
+
+.textarea {
+  resize: none; }
+
+.titulosContacto h2 {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  font-size: 50px; }
+
+.titulosContacto h3 {
+  color: #4FCA24;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 30px; }
+
+.reseñas {
+  color: white;
+  width: 100%;
+  height: 80px;
+  border-top: #00FF2A 3px solid;
+  background-color: black;
+  text-align: center;
+  position: relative; }
+  .reseñas h2 {
+    margin-top: 20px; }
+
+.borderBottom {
+  border-bottom: 2px white solid;
+  width: 10%;
+  position: absolute;
+  left: 45%; }
+
+.caruselTexto {
+  background-color: black;
+  border-bottom: #00FF2A 3px solid; }
+  .caruselTexto div {
+    text-align: center;
     color: white;
-    font-size: 35px;
-    letter-spacing: 2px;
+    margin-bottom: 50px; }
+    .caruselTexto div p {
+      padding: 20px; }
 
-}
+.colorFooter {
+  background-color: black; }
 
-.mapa{
-    height: 400px;
-    width: 100%;
-    border: black solid 3px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24,
-    0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
-    margin-top: 20px;
-}
-/* **************FIN DEL CSS DE UBICACION.HTML***************** */
+.textFooter {
+  font-size: 20px; }
 
-/* **************INICIO DEL CSS DE CONTACTO.HTML***************** */
-.colorLabel{
-    color: #00FF2A;
-}
-
-.imgContacto{
-    position: relative;
-    margin-top: 30px;
-    border-top: #00FF2A solid 3px;
-    border-bottom: #00FF2A solid 3px;
-}
-
-.textarea{
-    resize: none;
-}
-
-.titulosContacto h2{
-    color: white;
-    position: absolute;
-    top: 30%;
+@media (min-width: 300px) and (max-width: 699px) {
+  .tamaño {
+    height: 25vh; }
+  .containerBanner img {
+    height: 200px;
+    width: 100%; }
+  .caja img {
+    height: 500px; }
+  .textoTarjetas h2 {
     left: 32%;
-    font-size: 50px;
-
-}
-
-.titulosContacto h3{
-    color: #4FCA24;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    font-size: 30px;
-
-}
-
-.reseñas{
-    color: white;
-    width: 100%;
-    height: 80px;
-    border-top: #00FF2A 3px solid;
-    background-color: black;
-    text-align: center;
-    position: relative;
-}
-
-.reseñas h2{
-    margin-top: 20px;
-}
-
-.borderBottom{
-    border-bottom: 2px white solid;
-    width: 10%;
-    position: absolute;
-    left: 45%;
-}
-
-.caruselTexto{
-    background-color: black;
-    border-bottom: #00FF2A 3px solid;
-}
-
-.caruselTexto div{
-    text-align: center;
-    color: white;
-    margin-bottom: 50px;
-}
-
-.caruselTexto div p{
-    padding: 20px;
-}
-/* *************FIN DEL CSS DE CONTACTO.HTML***************** */
-
-
-/* *************INICIO DEL CSS DE FOOTER***************** */
-.colorFooter{
-    background-color: black;
-}
-
-.textFooter{
-    font-size: 20px;
-}
-
-.iconosFooter{
-    border: #4FCA24 solid 2px;
-    border-radius: 100px;
-}
-/* *************FIN DEL CSS DE FOOTER***************** */
-
-@media (min-width: 300px) and (max-width: 699px){
-
-    .tamaño{
-        height: 25vh;
-    }
-
-    .containerBanner img{
-        height: 200px;
-        width: 100%;
-    }
-
-    .caja img{
-        height: 500px;
-    }
-
-    .textoTarjetas h2{
-        left: 32%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas p{
-        left: 25%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas2 h2{
-        left: 20%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas2 p{
-        left: 20%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas3 h2{
-        left: 32%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas3 p{
-        left: 35%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas4 h2{
-        left: 27%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas4 p{
-        left: 30%;
-        font-size: 20px;
-    
-    }
-
-    .imagenDePcs img{
-        height: 200px;
-    }
-
-    .imagenDePcs h2{
-        font-size: 13px;
-    }
-
-    .imagenDePcs p{
-        font-size: 13px;
-        top: 65%;
-    }
-
-    .textoPcs{
-        width: 200px;
-    }
-
-    .imagenDePerifericos img{
-        height: 200px;
-    }
-
-    .imagenDePerifericos h2{
+    font-size: 30px; }
+  .textoTarjetas p {
+    left: 25%;
+    font-size: 20px; }
+  .textoTarjetas2 h2 {
+    left: 20%;
+    font-size: 30px; }
+  .textoTarjetas2 p {
+    left: 20%;
+    font-size: 20px; }
+  .textoTarjetas3 h2 {
+    left: 32%;
+    font-size: 30px; }
+  .textoTarjetas3 p {
+    left: 35%;
+    font-size: 20px; }
+  .textoTarjetas4 h2 {
+    left: 27%;
+    font-size: 30px; }
+  .textoTarjetas4 p {
+    left: 30%;
+    font-size: 20px; }
+  .imagenDePcs img {
+    height: 200px; }
+  .imagenDePcs h2 {
+    font-size: 13px; }
+  .imagenDePcs p {
+    font-size: 13px;
+    top: 65%; }
+  .textoPcs {
+    width: 200px; }
+  .imagenDePerifericos img {
+    height: 200px; }
+  .imagenDePerifericos h2 {
     bottom: 70%;
     left: 70%;
-    font-size: 12px;
-    }
-
-    .imagenDePerifericos p{
+    font-size: 12px; }
+  .imagenDePerifericos p {
     top: 30%;
     padding-left: 1px;
-    font-size: 11px;
-    }
-
-    .textoPerifericos{
-        width: 150px;
+    font-size: 11px; }
+  .textoPerifericos {
+    width: 150px;
     top: 18%;
-    left: 45%;
-    }
+    left: 45%; }
+  .cajaComunidad img {
+    height: 250px; }
+  .cajaComunidad h3 {
+    top: 20%;
+    left: 24%;
+    font-size: 30px; }
+  .cajaComunidad h2 {
+    top: 40%;
+    left: 15%;
+    font-size: 40px; }
+  .parrafoComunidad {
+    width: 300px;
+    font-size: 16px;
+    top: 5%;
+    left: 13%; }
+  .parrafoComunidad2 {
+    width: 300px;
+    font-size: 16px;
+    top: 48%;
+    left: 13%; }
+  .imgGamers img {
+    height: 250px; }
+  .textoGamer {
+    top: 7%;
+    left: 30%; }
+  .bottomGamer {
+    top: 25%;
+    left: 43%; }
+  .bannerRedes img {
+    height: 200px; }
+  .bannerRedes h2 {
+    font-size: 18px;
+    top: 10%;
+    left: 21%; }
+  .iconosRedes {
+    top: 40%;
+    left: 15%;
+    letter-spacing: 25px; }
+  .videoOficina video {
+    height: 250px; }
+  .imgContacto img {
+    height: 200px; }
+  .titulosContacto h2 {
+    left: 20%;
+    font-size: 25px; }
+  .titulosContacto h3 {
+    left: 29%;
+    font-size: 20px; } }
 
-    .cajaComunidad img{
-        height: 250px;
-    }
-    
-    .cajaComunidad h3{
-        top: 20%;
-        left: 24%;
-        font-size: 30px;
-    }
-
-    .cajaComunidad h2{
-        top: 40%;
-        left: 15%;
-        font-size: 40px;
-    }
-
-    .parrafoComunidad{
-        width: 300px;
-        font-size: 16px;
-        top: 5%;
-        left: 13%;
-    }
-    
-    .parrafoComunidad2{
-        width: 300px;
-        font-size: 16px;
-        top: 48%;
-        left: 13%;
-    }
-
-    .imgGamers img{
-        height: 250px;
-    }
-
-    .textoGamer{
-        top: 7%;
-        left: 30%;
-    }
-    
-    .bottomGamer{
-        top: 25%;
-        left: 43%;
-    }
-
-    .bannerRedes img{
-        height: 200px;
-    }
-
-    .bannerRedes h2{
-        font-size: 18px;
-        top: 10%;
-        left: 21%;
-    
-    }
-    
-    .iconosRedes{
-       top: 40%;
-       left: 15%;
-       letter-spacing: 25px;
-    }
-
-    .videoOficina video{
-        height: 250px;
-    }
-
-    .imgContacto img{
-        height: 200px;
-    }
-
-    .titulosContacto h2{
-        left: 20%;
-        font-size: 25px;
-    
-    }
-    
-    .titulosContacto h3{
-        left: 29%;
-        font-size: 20px;
-    
-    }
-}
-
-@media (min-width: 700px) and (max-width: 1000px){
-    .tamaño{
-        height: 35vh;
-    }
-
-    .caja img{
-        height: 650px;
-    }
-
-    .textoTarjetas h2{
-        left: 32%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas p{
-        left: 25%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas2 h2{
-        left: 20%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas2 p{
-        left: 20%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas3 h2{
-        left: 32%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas3 p{
-        left: 35%;
-        font-size: 20px;
-    
-    }
-    
-    .textoTarjetas4 h2{
-        left: 27%;
-        font-size: 30px;
-    }
-    
-    .textoTarjetas4 p{
-        left: 30%;
-        font-size: 20px;
-    
-    }
-
-    .imagenDePerifericos{
-        position: relative;
-    }
-
-    .imagenDePerifericos h2{
-    bottom: 70%;
-    color: white;
-    left: 70%;
-    }
-
-    .imagenDePerifericos p{
-    top: 30%;
-    color: white;
-    padding-left: 15px;
-    }
-
-    .textoPerifericos{
-        width: 300px;
+@media (min-width: 700px) and (max-width: 1000px) {
+  .tamaño {
+    height: 35vh; }
+  .caja img {
+    height: 650px; }
+  .textoTarjetas h2 {
+    left: 32%;
+    font-size: 30px; }
+  .textoTarjetas p {
+    left: 25%;
+    font-size: 20px; }
+  .textoTarjetas2 h2 {
+    left: 20%;
+    font-size: 30px; }
+  .textoTarjetas2 p {
+    left: 20%;
+    font-size: 20px; }
+  .textoTarjetas3 h2 {
+    left: 32%;
+    font-size: 30px; }
+  .textoTarjetas3 p {
+    left: 35%;
+    font-size: 20px; }
+  .textoTarjetas4 h2 {
+    left: 27%;
+    font-size: 30px; }
+  .textoTarjetas4 p {
+    left: 30%;
+    font-size: 20px; }
+  .imagenDePerifericos {
+    position: relative; }
+    .imagenDePerifericos h2 {
+      bottom: 70%;
+      color: white;
+      left: 70%; }
+    .imagenDePerifericos p {
+      top: 30%;
+      color: white;
+      padding-left: 15px; }
+  .textoPerifericos {
+    width: 300px;
     bottom: 20%;
-    left: 60%;
-    }
-
-    .cajaComunidad h3{
-        top: 20%;
-        left: 26%;
-    }
-    
-    .cajaComunidad h2{
-        top: 35%;
-        left: 15%;
-    }
-
-    .parrafoComunidad{
-        font-size: 22px;
-        top: 5%;
-        left: 15%;
-    }
-    
-    .parrafoComunidad2{
-        font-size: 22px;
-        top: 50%;
-        left: 15%;
-    }
-
-    .imgGamers img{
-        height: 450px;
-    }
-
-    .textoGamer{
-        top: 7%;
-        left: 39%;
-    }
-    
-    .bottomGamer{
-        top: 20%;
-        left: 47%;
-    }
-
-    .bannerRedes img{
-        height: 250px;
-    }
-
-    .bannerRedes h2{
-        left: 13%;
-        letter-spacing: 1px;
-    
-    }
-    
-    .iconosRedes{
-       top: 50%;
-       left: 15%;
-       letter-spacing: 40px;
-    }
-
-    .videoOficina video{
-        height: 500px;
-    }
-
-    .imgContacto img{
-        height: 300px;
-    }
-
-    .titulosContacto h2{
-        left: 20%;
-        font-size: 50px;
-    
-    }
-    
-    .titulosContacto h3{
-        left: 33%;
-        font-size: 30px;
-    
-    }
-
-    
-}
+    left: 60%; }
+  .cajaComunidad h3 {
+    top: 20%;
+    left: 26%; }
+  .cajaComunidad h2 {
+    top: 35%;
+    left: 15%; }
+  .parrafoComunidad {
+    font-size: 22px;
+    top: 5%;
+    left: 15%; }
+  .parrafoComunidad2 {
+    font-size: 22px;
+    top: 50%;
+    left: 15%; }
+  .imgGamers img {
+    height: 450px; }
+  .textoGamer {
+    top: 7%;
+    left: 39%; }
+  .bottomGamer {
+    top: 20%;
+    left: 47%; }
+  .bannerRedes img {
+    height: 250px; }
+  .bannerRedes h2 {
+    left: 13%;
+    letter-spacing: 1px; }
+  .iconosRedes {
+    top: 50%;
+    left: 15%;
+    letter-spacing: 40px; }
+  .videoOficina video {
+    height: 500px; }
+  .imgContacto img {
+    height: 300px; }
+  .titulosContacto h2 {
+    left: 20%;
+    font-size: 50px; }
+  .titulosContacto h3 {
+    left: 33%;
+    font-size: 30px; } }

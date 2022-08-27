@@ -1,0 +1,408 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "navbar";
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #000000;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.tamaño {
+	height: 90vh;
+	object-fit: cover;
+}
+.hola {
+	background-color: black;
+}
+.imgBorder {
+	border-radius: 3px;
+}
+.imagenEquipos {
+	&:hover {
+		transform: scale(0.9);
+		transition: 0.5s;
+	}
+}
+.colorText {
+	color: #00FF2A;
+}
+.colorText2 {
+	color: gray;
+}
+.colorBottom {
+	background-color: #00FF2A;
+}
+.caja {
+	position: relative;
+	img {
+		width: 100%;
+		height: 800px;
+	}
+}
+.textoTarjetas {
+	h2 {
+		position: absolute;
+		bottom: 87%;
+		left: 32%;
+		color: white;
+		font-size: 50px;
+	}
+	p {
+		position: absolute;
+		bottom: 75%;
+		left: 28%;
+		color: #4FCA24;
+		font-size: 30px;
+	}
+}
+.textoTarjetas2 {
+	h2 {
+		position: absolute;
+		bottom: 87%;
+		left: 20%;
+		color: white;
+		font-size: 50px;
+	}
+	p {
+		position: absolute;
+		bottom: 75%;
+		left: 25%;
+		color: #4FCA24;
+		font-size: 30px;
+	}
+}
+.textoTarjetas3 {
+	h2 {
+		position: absolute;
+		bottom: 87%;
+		left: 32%;
+		color: white;
+		font-size: 50px;
+	}
+	p {
+		position: absolute;
+		bottom: 75%;
+		left: 35%;
+		color: #4FCA24;
+		font-size: 30px;
+	}
+}
+.textoTarjetas4 {
+	h2 {
+		position: absolute;
+		bottom: 87%;
+		left: 27%;
+		color: white;
+		font-size: 50px;
+	}
+	p {
+		position: absolute;
+		bottom: 75%;
+		left: 32%;
+		color: #4FCA24;
+		font-size: 30px;
+	}
+}
+.col-lg-6 {
+	padding: 5px;
+}
+.tituloPrincopalTienda {
+	margin-top: 40px;
+	margin-left: 30px;
+	color: #00FF2A;
+	font-size: 50px;
+	h2 {
+		margin-top: 40px;
+		margin-left: 30px;
+		color: #00FF2A;
+		font-size: 50px;
+	}
+	p {
+		color: white;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+}
+.imagenDePcs {
+	position: relative;
+	img {
+		height: 350px;
+		margin-top: 10px;
+	}
+	h2 {
+		position: absolute;
+		bottom: 70%;
+		color: white;
+		padding-left: 20px;
+	}
+	p {
+		position: absolute;
+		top: 40%;
+		color: white;
+		padding-left: 15px;
+	}
+}
+.textoPcs {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	bottom: 30%;
+}
+.tarjetas {
+	margin-top: 15px;
+}
+.imagenDePerifericos {
+	position: relative;
+	img {
+		margin-top: 30px;
+		height: 350px;
+	}
+	h2 {
+		position: absolute;
+		bottom: 63%;
+		left: 75%;
+		color: white;
+		padding-left: 20px;
+	}
+	p {
+		position: absolute;
+		top: 50%;
+		color: white;
+		padding-left: 20px;
+	}
+}
+.textoPerifericos {
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	bottom: 30%;
+	left: 70%;
+}
+.cajaComunidad {
+	margin-top: 20px;
+	position: relative;
+	img {
+		height: 550px;
+	}
+	h3 {
+		position: absolute;
+		top: 30%;
+		left: 37%;
+		color: white;
+		font-size: 70px;
+		letter-spacing: 3px;
+	}
+	h2 {
+		position: absolute;
+		top: 40%;
+		left: 30%;
+		color: #00FF2A;
+		font-size: 100px;
+		letter-spacing: 3px;
+	}
+}
+.cajaTextoComunidad {
+	background-color: #4FCA24;
+	height: 300px;
+	position: relative;
+	border-top: #000000 solid 3px;
+	border-bottom: #000000 solid 3px;
+}
+.parrafoComunidad {
+	color: #000000;
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 7%;
+	left: 27%;
+}
+.parrafoComunidad2 {
+	color: #000000;
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 47%;
+	left: 27%;
+}
+.imgGamers {
+	position: relative;
+	border-bottom: #00FF2A solid 3px;
+	img {
+		height: 550px;
+	}
+}
+.textoGamer {
+	position: absolute;
+	top: 7%;
+	left: 41%;
+	color: white;
+}
+.bottomGamer {
+	position: absolute;
+	top: 18%;
+	left: 46%;
+}
+.bannerRedes {
+	position: relative;
+	border-bottom: #00FF2A solid 3px;
+	h2 {
+		position: absolute;
+		top: 10%;
+		left: 21%;
+		color: white;
+		letter-spacing: 2px;
+	}
+}
+.iconosRedes {
+	position: absolute;
+	top: 40%;
+	left: 21%;
+	letter-spacing: 70px;
+}
+#facebook {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#instagram {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#twitter {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#youtube {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#tiktok {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#discord {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+#twitch {
+	&:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+.videoOficina {
+	video {
+		height: 600px;
+		width: 100%;
+		object-fit: cover;
+		margin-top: 50px;
+		border-top: #00FF2A solid 3px;
+		border-bottom: #00FF2A solid 3px;
+	}
+}
+.tituloUbicacion {
+	h2 {
+		margin-top: 20px;
+		margin-left: 30px;
+		color: #00FF2A;
+		letter-spacing: 2px;
+		font-size: 50px;
+	}
+	h3 {
+		margin-left: 30px;
+		color: white;
+		font-size: 35px;
+		letter-spacing: 2px;
+	}
+}
+.mapa {
+	height: 400px;
+	width: 100%;
+	border: black solid 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24, 0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
+	margin-top: 20px;
+}
+.colorLabel {
+	color: #00FF2A;
+}
+.imgContacto {
+	position: relative;
+	margin-top: 30px;
+	border-top: #00FF2A solid 3px;
+	border-bottom: #00FF2A solid 3px;
+}
+.textarea {
+	resize: none;
+}
+.titulosContacto {
+	h2 {
+		color: white;
+		position: absolute;
+		top: 30%;
+		left: 32%;
+		font-size: 50px;
+	}
+	h3 {
+		color: #4FCA24;
+		position: absolute;
+		top: 50%;
+		left: 40%;
+		font-size: 30px;
+	}
+}
+.reseñas {
+	color: white;
+	width: 100%;
+	height: 80px;
+	border-top: #00FF2A 3px solid;
+	background-color: black;
+	text-align: center;
+	position: relative;
+	h2 {
+		margin-top: 20px;
+	}
+}
+.borderBottom {
+	border-bottom: 2px white solid;
+	width: 10%;
+	position: absolute;
+	left: 45%;
+}
+.caruselTexto {
+	background-color: black;
+	border-bottom: #00FF2A 3px solid;
+	div {
+		text-align: center;
+		color: white;
+		margin-bottom: 50px;
+		p {
+			padding: 20px;
+		}
+	}
+}
+.colorFooter {
+	background-color: black;
+}
+.textFooter {
+	font-size: 20px;
+}
+@import "mediaquery";
