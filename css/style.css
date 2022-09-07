@@ -73,18 +73,6 @@
   display: flex;
   justify-content: center; }
 
-.textoTarjetas2 {
-  display: flex;
-  justify-content: center; }
-
-.textoTarjetas3 {
-  display: flex;
-  justify-content: center; }
-
-.textoTarjetas4 {
-  display: flex;
-  justify-content: center; }
-
 .textoPcs, .textoPerifericos {
   width: 400px;
   height: 200px;
@@ -235,20 +223,20 @@ body {
 /**********Inicio Del CSS Comunidad.html*************/
 .cajaComunidad {
   margin-top: 20px;
-  position: relative; }
+  position: relative;
+  display: flex;
+  justify-content: center; }
   .cajaComunidad img {
     height: 550px; }
   .cajaComunidad h3 {
     position: absolute;
     top: 30%;
-    left: 37%;
     color: white;
     font-size: 70px;
     letter-spacing: 3px; }
   .cajaComunidad h2 {
     position: absolute;
     top: 40%;
-    left: 30%;
     color: #00FF2A;
     font-size: 100px;
     letter-spacing: 3px; }
@@ -273,20 +261,20 @@ body {
   top: 47%; }
 
 .imgGamers {
-  position: relative; }
+  position: relative;
+  display: flex;
+  justify-content: center; }
   .imgGamers img {
     height: 550px; }
 
 .textoGamer {
   position: absolute;
   top: 7%;
-  left: 41%;
   color: white; }
 
 .bottomGamer {
   position: absolute;
-  top: 18%;
-  left: 46%; }
+  top: 18%; }
 
 .bannerRedes {
   position: relative; }
@@ -344,19 +332,19 @@ body {
 .textarea {
   resize: none; }
 
-.titulosContacto h2 {
-  color: white;
-  position: absolute;
-  top: 30%;
-  left: 32%;
-  font-size: 50px; }
-
-.titulosContacto h3 {
-  color: #00FF2A;
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  font-size: 30px; }
+.titulosContacto {
+  display: flex;
+  justify-content: center; }
+  .titulosContacto h2 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    font-size: 50px; }
+  .titulosContacto h3 {
+    color: #00FF2A;
+    position: absolute;
+    top: 50%;
+    font-size: 30px; }
 
 .reseñas {
   color: white;
@@ -409,7 +397,7 @@ body {
   .imagenDePcs h2 {
     font-size: 13px; }
   .imagenDePcs p {
-    font-size: 13px;
+    font-size: 11px;
     top: 65%; }
   .textoPcs, .textoPerifericos {
     width: 200px; }
@@ -430,12 +418,10 @@ body {
   .cajaComunidad img {
     height: 250px; }
   .cajaComunidad h3 {
-    top: 20%;
-    left: 24%;
+    top: 25%;
     font-size: 30px; }
   .cajaComunidad h2 {
-    top: 40%;
-    left: 15%;
+    top: 45%;
     font-size: 40px; }
   .parrafoComunidad {
     width: 300px;
@@ -448,11 +434,9 @@ body {
   .imgGamers img {
     height: 250px; }
   .textoGamer {
-    top: 7%;
-    left: 30%; }
+    top: 7%; }
   .bottomGamer {
-    top: 25%;
-    left: 43%; }
+    top: 25%; }
   .bannerRedes img {
     height: 200px; }
   .bannerRedes h2 {
@@ -468,10 +452,8 @@ body {
   .imgContacto img {
     height: 200px; }
   .titulosContacto h2 {
-    left: 20%;
     font-size: 25px; }
   .titulosContacto h3 {
-    left: 29%;
     font-size: 20px; } }
 
 @media (min-width: 700px) and (max-width: 1000px) {
@@ -498,11 +480,9 @@ body {
     bottom: 20%;
     left: 60%; }
   .cajaComunidad h3 {
-    top: 20%;
-    left: 26%; }
+    top: 25%; }
   .cajaComunidad h2 {
-    top: 35%;
-    left: 15%; }
+    top: 40%; }
   .parrafoComunidad {
     font-size: 22px;
     top: 5%; }
@@ -512,11 +492,9 @@ body {
   .imgGamers img {
     height: 450px; }
   .textoGamer {
-    top: 7%;
-    left: 39%; }
+    top: 7%; }
   .bottomGamer {
-    top: 20%;
-    left: 47%; }
+    top: 20%; }
   .bannerRedes img {
     height: 250px; }
   .bannerRedes h2 {
@@ -531,8 +509,6 @@ body {
   .imgContacto img {
     height: 300px; }
   .titulosContacto h2 {
-    left: 20%;
     font-size: 50px; }
   .titulosContacto h3 {
-    left: 33%;
     font-size: 30px; } }
