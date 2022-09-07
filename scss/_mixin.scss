@@ -44,3 +44,21 @@
 		@include animaciones;
 }
 }
+
+@mixin flexDeTarjetasIndex {
+	display: flex;
+	justify-content: center;
+}
+
+.textoTarjetas{
+   @include flexDeTarjetasIndex;
+}
+.textoTarjetas2{
+	@include flexDeTarjetasIndex;
+}
+.textoTarjetas3{
+	@include flexDeTarjetasIndex;
+}
+.textoTarjetas4{
+	@include flexDeTarjetasIndex;
+}

@@ -1,10 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
-@import "navbar";
+/**********Inicio Del CSS De Imparcials*************/
 @import "variables";
 @import "mapas";
 @import "mixin";
 @import "extend";
-
+/**********Fin Del CSS De Imparcials*************/
+/**********Inicio Del CSS General*************/
 *{
 	margin: 0;
 	padding: 0;
@@ -13,7 +14,9 @@ body {
 	background-color: #000000;
 	font-family: 'Bebas Neue', cursive;
 }
-
+@import "navbar";
+/**********Fin Del CSS General*************/
+/**********Inicio Del CSS Index.html*************/
 .tamaño {
 	height: 90vh;
 	object-fit: cover;
@@ -44,62 +47,12 @@ body {
 	h2 {
 		position: absolute;
 		bottom: 87%;
-		left: 32%;
 		color: $color-titulo-2;
 		font-size: 50px;
 	}
 	p {
 		position: absolute;
 		bottom: 75%;
-		left: 28%;
-		color: $color-titulo-1;
-		font-size: 30px;
-	}
-}
-.textoTarjetas2 {
-	h2 {
-		position: absolute;
-		bottom: 87%;
-		left: 20%;
-		color: $color-titulo-2;
-		font-size: 50px;
-	}
-	p {
-		position: absolute;
-		bottom: 75%;
-		left: 25%;
-		color: $color-titulo-1;
-		font-size: 30px;
-	}
-}
-.textoTarjetas3 {
-	h2 {
-		position: absolute;
-		bottom: 87%;
-		left: 32%;
-		color: $color-titulo-2;
-		font-size: 50px;
-	}
-	p {
-		position: absolute;
-		bottom: 75%;
-		left: 35%;
-		color: $color-titulo-1;
-		font-size: 30px;
-	}
-}
-.textoTarjetas4 {
-	h2 {
-		position: absolute;
-		bottom: 87%;
-		left: 27%;
-		color: $color-titulo-2;
-		font-size: 50px;
-	}
-	p {
-		position: absolute;
-		bottom: 75%;
-		left: 32%;
 		color: $color-titulo-1;
 		font-size: 30px;
 	}
@@ -107,6 +60,8 @@ body {
 .col-lg-6 {
 	padding: 5px;
 }
+/**********Fin Del CSS Index.html*************/
+/**********Inicio Del CSS Productos.html*************/
 .tituloPrincopalTienda {
 	margin-top: 40px;
 	margin-left: 30px;
@@ -146,6 +101,8 @@ body {
 }
 .tarjetas {
 	margin-top: 15px;
+	display: flex;
+	justify-content: center;
 }
 .imagenDePerifericos {
 	position: relative;
@@ -167,6 +124,8 @@ body {
 		padding-left: 20px;
 	}
 }
+/**********Fin Del CSS Productos.html*************/
+/**********Inicio Del CSS Comunidad.html*************/
 .cajaComunidad {
 	margin-top: 20px;
 	position: relative;
@@ -196,18 +155,18 @@ body {
 	position: relative;
 	border-top: #000000 solid 3px;
 	border-bottom: #000000 solid 3px;
+	display: flex;
+	justify-content: center;
 }
 .parrafoComunidad {
 	width: 600px;
 	position: absolute;
 	top: 7%;
-	left: 27%;
 }
 .parrafoComunidad2 {
 	width: 600px;
 	position: absolute;
 	top: 47%;
-	left: 27%;
 }
 .imgGamers {
 	position: relative;
@@ -242,6 +201,8 @@ body {
 	left: 21%;
 	letter-spacing: 70px;
 }
+/**********Fin Del CSS Comunidad.html*************/
+/**********Inicio Del CSS Ubicacion.html*************/
 .videoOficina {
 	video {
 		height: 600px;
@@ -273,6 +234,8 @@ body {
 	box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24, 0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
 	margin-top: 30px;
 }
+/**********Fin Del CSS Ubicacion.html*************/
+/**********Inicio Del CSS Contacto.html*************/
 .colorLabel {
 	color: $color-titulo-1;
 }
@@ -327,10 +290,13 @@ body {
 		}
 	}
 }
+/**********Fin Del CSS Contacto.html*************/
+/**********Inicio Del CSS Footer*************/
 .colorFooter {
 	background-color: black;
 }
 .textFooter {
 	font-size: 20px;
 }
+/**********Fin Del CSS Footer*************/
 @import "mediaquery";
