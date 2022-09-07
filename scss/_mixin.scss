@@ -1,0 +1,46 @@
+@mixin animaciones{
+    &:hover {
+		transform: scale(0.8);
+		transition: 0.5s;
+	}
+}
+
+.imagenEquipos {
+	@include animaciones;
+}
+
+#facebook {
+	&:hover {
+		@include animaciones;
+}
+}
+#instagram {
+	&:hover {
+		@include animaciones;
+}
+}
+#twitter {
+	&:hover {
+		@include animaciones;
+}
+}
+#youtube {
+	&:hover {
+		@include animaciones;
+}
+}
+#tiktok {
+	&:hover {
+		@include animaciones;
+}
+}
+#discord {
+	&:hover {
+		@include animaciones;
+}
+}
+#twitch {
+	&:hover {
+		@include animaciones;
+}
+}

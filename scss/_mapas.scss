@@ -1,0 +1,40 @@
+$style-p: (color: black, tamfuente: 20px, aliniacion: center);
+$border: (border-top: #00FF2A solid 3px, border-bottom: #00FF2A solid 3px);
+
+.parrafoComunidad{
+    color: map-get($style-p, color);
+    font-size: map-get($style-p, tamfuente);
+    text-align: map-get($style-p, aliniacion);
+}
+.parrafoComunidad2{
+    color: map-get($style-p, color);
+    font-size: map-get($style-p, tamfuente);
+    text-align: map-get($style-p, aliniacion);
+}
+.imagenDePcs img{
+    border-top: map-get($border, border-top);
+    border-bottom: map-get($border, border-bottom);
+}
+.imagenDePerifericos img{
+    border-top: map-get($border, border-top);
+    border-bottom: map-get($border, border-bottom);
+}
+.bannerRedes{
+    border-top: map-get($border, border-top);
+    border-bottom: map-get($border, border-bottom);
+}
+.videoOficina video{
+    border-top: map-get($border, border-top);
+    border-bottom: map-get($border, border-bottom);
+}
+.imgContacto{
+    border-top: map-get($border, border-top);
+    border-bottom: map-get($border, border-bottom);
+}
+.reseñas{
+    border-top: map-get($border, border-top);
+}
+.caruselTexto{
+    border-bottom: map-get($border, border-bottom);
+}
+
