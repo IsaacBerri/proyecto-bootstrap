@@ -97,6 +97,15 @@
   transform: scale(0.8);
   transition: 0.5s; }
 
+.textoPcs, .textoPerifericos {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  bottom: 30%; }
+
+.textoPerifericos {
+  left: 70%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -221,12 +230,6 @@ body {
     color: white;
     padding-left: 15px; }
 
-.textoPcs {
-  width: 400px;
-  height: 200px;
-  position: absolute;
-  bottom: 30%; }
-
 .tarjetas {
   margin-top: 15px; }
 
@@ -246,13 +249,6 @@ body {
     top: 50%;
     color: white;
     padding-left: 20px; }
-
-.textoPerifericos {
-  width: 350px;
-  height: 200px;
-  position: absolute;
-  bottom: 30%;
-  left: 70%; }
 
 .cajaComunidad {
   margin-top: 20px;
@@ -445,7 +441,7 @@ body {
   .imagenDePcs p {
     font-size: 13px;
     top: 65%; }
-  .textoPcs {
+  .textoPcs, .textoPerifericos {
     width: 200px; }
   .imagenDePerifericos img {
     height: 200px; }

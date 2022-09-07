@@ -5,7 +5,6 @@
 @import "mixin";
 @import "extend";
 
-
 *{
 	margin: 0;
 	padding: 0;
@@ -145,12 +144,6 @@ body {
 		padding-left: 15px;
 	}
 }
-.textoPcs {
-	width: 400px;
-	height: 200px;
-	position: absolute;
-	bottom: 30%;
-}
 .tarjetas {
 	margin-top: 15px;
 }
@@ -173,13 +166,6 @@ body {
 		color: $color-titulo-2;
 		padding-left: 20px;
 	}
-}
-.textoPerifericos {
-	width: 350px;
-	height: 200px;
-	position: absolute;
-	bottom: 30%;
-	left: 70%;
 }
 .cajaComunidad {
 	margin-top: 20px;

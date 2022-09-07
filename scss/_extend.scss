@@ -1,0 +1,10 @@
+.textoPcs {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	bottom: 30%;
+}
+.textoPerifericos {
+	@extend .textoPcs;
+	left: 70%;
+}
