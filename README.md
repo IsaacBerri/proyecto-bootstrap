@@ -9,4 +9,4 @@ Es un proyecto inspirado en una de las marcas gamers (RAZER), el proyecto incluy
 -Librerias (Animate.css, Iconify)
 -Sass
 
-El proyecto metomo al rededor de 2 semanas completarlo, el proceso fue muy divertido y emocionante ya que estaba creando mi primer sitio web..
+El proyecto metomo al rededor de 2 semanas completarlo, el proceso fue muy divertido y emocionante ya que estaba creando mi primer sitio web.
