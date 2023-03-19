@@ -315,8 +315,8 @@ body {
 .mapa {
   height: 400px;
   width: 100%;
-  border: black solid 3px;
-  border-radius: 10px;
+  border-top: black solid 3px;
+  border-bottom: black solid 3px;
   box-shadow: 0 0 5px #00FF2A, 0 0 10px #00FF2A, 0 0 15px #00FF2A, 0 0 20px #4FCA24, 0 0 30px #4FCA24, 0 0 40px #4FCA24, 0 0 55px #4FCA24, 0 0 75px #4FCA24;
   margin-top: 30px; }
 
